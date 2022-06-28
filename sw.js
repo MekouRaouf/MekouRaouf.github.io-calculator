@@ -1,4 +1,4 @@
-var cacheName = 'RaoufCalc';
+var cacheName = 'calculator';
 var filesToCache = [
   '/',
   '/index.html',

@@ -1,3 +1,13 @@
+//PWA functionality
+window.onload = () => {
+    'use strict';
+  
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('./sw.js');
+    }
+}
+
 var screen = document.querySelector('#screen')
 var numbers = document.querySelectorAll('#number')
 var operators = document.querySelectorAll('.operator')
